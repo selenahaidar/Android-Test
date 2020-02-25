@@ -45,10 +45,10 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        tools:visibility="gone"
         android:background="@color/colorAccent"
-        android:paddingBottom="@dimen/small_padding"/>
+        android:paddingBottom="@dimen/small_padding"
+        android:textAlignment="center"
+        tools:visibility="gone" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
